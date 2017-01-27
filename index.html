@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>vuetmp</title>
+    <link href="routs.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+<div id="app">
+    <mainheader></mainheader>
+    <ul class="nav">
+        <li><router-link to="/home" class="nav__link">Home</router-link></li>
+        <li><router-link to="/main" class="nav__link">Users</router-link></li>
+        <li><router-link to="/contacts" class="nav__link">Contacts</router-link></li>
+    </ul>
+    <router-view></router-view>
+</div>
+
+
+<script src="/dist/routs.js"></script>
+</body>
+</html>
